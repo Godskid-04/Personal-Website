@@ -1,0 +1,43 @@
+body{
+    /* background: linear-gradient(to top right, green , blue); */
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%),url(image/m.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.logo{
+    text-align: center;
+    color: purple;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: green;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+h2{
+    text-align: center;
+    color: yellow;
+}
+p{
+    color: yellow;
+    text-align: bold;
+    text-align: left;
+}
+
